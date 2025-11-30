@@ -1,14 +1,11 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{capstone}[2025/11/29 Capstone cover-to-TOC class]
 
-% Pass unknown options to report
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions\relax
 
-% Base class
 \LoadClass[12pt,a4paper]{report}
 
-% Packages and basic layout
 \RequirePackage[a4paper,margin=1in]{geometry}
 \RequirePackage{setspace}
 \RequirePackage{newtxtext,newtxmath}
@@ -17,14 +14,14 @@
 \RequirePackage{etoolbox} % for \gappto
 \onehalfspacing
 
-% Default info commands (override in main.tex if needed)
+% Default info commands (override in main.tex)
 \newcommand{\Department}{Department of Electrical and Computer Engineering}
 \newcommand{\University}{North South University}
 \newcommand{\ProjectType}{Senior Design Project}
 
-\newcommand{\AdvisorName}{Dr.\ Riasat Khan}
+\newcommand{\AdvisorName}{Dr.\ X}
 \newcommand{\AdvisorTitle}{Assistant Professor}
-\newcommand{\ChairName}{Dr.\ Rajesh Palit}
+\newcommand{\ChairName}{Dr.\ Y}
 \newcommand{\ChairTitle}{Professor}
 
 \newcommand{\Semester}{Spring}

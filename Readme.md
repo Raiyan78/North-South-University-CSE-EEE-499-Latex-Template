@@ -1,7 +1,7 @@
 # Capstone LaTeX Class
 
 This project contains a small LaTeX class (`capstone.cls`) that sets up the
-front pages for our capstone report. It handles the cover, approval page,
+front pages for our capstone report (CSE499/EEE499). It handles the cover, approval page,
 declaration, acknowledgements, abstract, and the table of contents, so the
 main document only needs to focus on the actual chapters.
 
