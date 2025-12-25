@@ -82,7 +82,7 @@ references, symbols or equations in the abstract.%
   \begin{titlepage}
     \thispagestyle{empty}
     \begin{center}
-      \includegraphics[width=3cm]{\Logofile}\par
+      \includegraphics[width=4.5cm, height=5cm]{\Logofile}\par
       \vspace*{1cm}
       {\Large \Department\\[0.5em]
       \University\par}
